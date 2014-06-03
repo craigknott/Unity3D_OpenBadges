@@ -75,10 +75,20 @@ public class OBBadge : MonoBehaviour {
 		Debug.Log ("Badge Recieved = " + badge.ToString ());
 	}
 
+	/** 
+	 * public get_badge() return this badges JSONNode data
+	 * Params: Void
+	 * Returns: JSONNode: The badge data
+	 */
 	public JSONNode get_badge() {
 		return badge;
 	}
 
+	/** 
+	 * public get_texture() get the texture image of this badge
+	 * Params: Void
+	 * Returns: Texture: The badge image
+	 */
 	public Texture get_texture() {
 		return prvTexture;
 	}
